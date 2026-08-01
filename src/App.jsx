@@ -506,7 +506,7 @@ export default function App() {
         /* INLINE PROFILE EDIT FORM */
         <form onSubmit={handleProfileSave}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-            <h3 style={{ margin: 0 }}>✏️ Edit Profile Details</h3>
+            <h3 style={{ margin: 0 }}> Edit Profile Details</h3>
             <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Update your developer information</span>
           </div>
 
