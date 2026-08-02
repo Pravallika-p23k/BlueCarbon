@@ -1,22 +1,19 @@
 {
-  "name": "bluecarbon",
-  "private": true,
-  "version": "0.0.0",
+  "name": "server",
+  "version": "1.0.0",
   "type": "module",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^6.0.5",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "vite": "^8.2.0"
+    "start": "nodemon server.js"
   },
   "dependencies": {
-    "leaflet": "^1.9.4",
-    "lucide-react": "^1.28.0",
-    "react-leaflet": "^5.0.0"
-  }
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "mongoose": "^8.24.2"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
